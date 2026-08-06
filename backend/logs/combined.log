@@ -1,0 +1,828 @@
+2026-08-06 12:07:17 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:07:17 [SYSTEM] ║   ENSAYO 2027 — Backend API  ║
+2026-08-06 12:07:17 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:07:17 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:07:17 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:07:17 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:07:17 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:07:17 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:07:17 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:07:17
+2026-08-06 12:07:17 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:07:32 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:07:32 [SYSTEM] ║   ENSAYO 2027 — Backend API  ║
+2026-08-06 12:07:32 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:07:32 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:07:32 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:07:32 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:07:32 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:07:32 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:07:32 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:07:32
+2026-08-06 12:07:32 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:07:40 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:07:40 [SYSTEM] ║   ENSAYO 2027 — Backend API  ║
+2026-08-06 12:07:40 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:07:40 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:07:40 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:07:40 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:07:40 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:07:40 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:07:40 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:07:40
+2026-08-06 12:07:40 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:07:45 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:07:45 [SYSTEM] ║   ENSAYO 2027 — Backend API  ║
+2026-08-06 12:07:45 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:07:45 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:07:45 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:07:45 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:07:45 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:07:45 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:07:45 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:07:45
+2026-08-06 12:07:45 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:10:26 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:10:26 [SYSTEM] ║   HACK 2027 — Backend API  ║
+2026-08-06 12:10:26 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:10:26 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:10:26 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:10:26 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:10:26 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:10:26 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:10:26 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:10:26
+2026-08-06 12:10:26 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:10:29 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:10:29 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 12:10:29 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:10:29 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:10:29 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:10:29 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:10:29 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:10:29 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:10:29 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:10:29
+2026-08-06 12:10:29 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:12:40 [ACTION] GET /api/catalogos/tema 200 - 10ms
+2026-08-06 12:12:40 [ACTION] GET /api/catalogos/convocatoria-activa 200 - 21ms
+2026-08-06 12:12:40 [ACTION] GET /api/catalogos/categorias 200 - 31ms
+2026-08-06 12:12:41 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 12:12:41 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 12:12:41 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 12:12:48 [SESSION] Inicio de sesión exitoso: [id=1 | Rol=undefined | Usuario=superadmin] IP: ::1
+2026-08-06 12:12:48 [ACTION] POST /api/auth/login 200 - 66ms
+2026-08-06 12:12:50 [ACTION] GET /api/notificaciones 304 - 7ms
+2026-08-06 12:12:50 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 5ms
+2026-08-06 12:12:50 [ACTION] GET /api/catalogos/tema 304 - 7ms
+2026-08-06 12:12:50 [ACTION] GET /api/catalogos/categorias 304 - 13ms
+2026-08-06 12:12:50 [ACTION] GET /api/notificaciones 304 - 8ms
+2026-08-06 12:12:50 [ACTION] GET /api/superadmin/usuarios 200 - 21ms
+2026-08-06 12:12:54 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:12:58 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:02 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:13:06 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:10 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:14 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:18 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:22 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:13:26 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:30 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:34 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:13:38 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:13:42 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:46 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:13:50 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:13:54 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:13:56 [ACTION] GET /api/catalogos/tema 200 - 3ms
+2026-08-06 12:13:56 [ACTION] GET /api/catalogos/convocatoria-activa 200 - 3ms
+2026-08-06 12:13:56 [ACTION] GET /api/catalogos/categorias 200 - 8ms
+2026-08-06 12:13:56 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 12:13:58 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:14:02 [ACTION] GET /api/superadmin/usuarios 304 - 12ms
+2026-08-06 12:14:07 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:14:11 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:14:14 [SESSION] Inicio de sesión exitoso: [id=12 | Rol=undefined | Usuario=vicente] IP: ::1
+2026-08-06 12:14:14 [ACTION] POST /api/auth/login 200 - 55ms
+2026-08-06 12:14:15 [ACTION] GET /api/superadmin/usuarios 200 - 7ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 3ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/tema 304 - 4ms
+2026-08-06 12:14:16 [ACTION] GET /api/notificaciones 304 - 8ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/alcaldias 304 - 8ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/te-enteraste 304 - 8ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/categorias 304 - 12ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/manifestaciones 304 - 4ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/tema 304 - 2ms
+2026-08-06 12:14:16 [ACTION] GET /api/notificaciones 304 - 4ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 12:14:16 [ACTION] GET /api/participante/mi-registro 200 - 10ms
+2026-08-06 12:14:16 [ACTION] GET /api/catalogos/requisitos-archivos 304 - 6ms
+2026-08-06 12:14:16 [ACTION] GET /api/participante/mis-archivos 200 - 6ms
+2026-08-06 12:14:19 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:14:22 [SESSION] Cierre de sesión: [id=12 | Rol=undefined | Usuario=vicente] IP: ::1
+2026-08-06 12:14:22 [ACTION] POST /api/auth/logout 200 - 9ms
+2026-08-06 12:14:22 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 12:14:22 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 12:14:22 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 12:14:23 [ACTION] GET /api/superadmin/usuarios 200 - 7ms
+2026-08-06 12:14:27 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:14:30 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:14:34 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:14:38 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:14:42 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:14:46 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:14:50 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:14:52 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:14:52 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 12:14:52 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:14:52 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:14:52 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:14:52 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:14:52 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:14:52 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:14:52 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:14:52
+2026-08-06 12:14:52 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:14:54 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 12:14:58 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:15:02 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:15:06 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:15:10 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:15:14 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:15:18 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:15:22 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:15:26 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:15:30 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:15:34 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:15:38 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:15:42 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:15:46 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:15:50 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:15:54 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:15:58 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:16:02 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:16:06 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:16:10 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:16:14 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:16:18 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:16:22 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:16:26 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:16:30 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:16:34 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:16:38 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:16:42 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:16:46 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:16:50 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:16:54 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:16:58 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:17:02 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:17:06 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:17:10 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:17:14 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:17:18 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:17:22 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:17:26 [ACTION] GET /api/superadmin/usuarios 304 - 15ms
+2026-08-06 12:17:30 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:17:34 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:17:38 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:17:42 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:17:46 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:17:50 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:17:54 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:17:58 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:18:02 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:18:06 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:18:11 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:18:15 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:18:19 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:18:23 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:18:27 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:18:31 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 12:18:35 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:18:39 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:18:43 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:18:47 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:18:51 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 12:18:55 [ACTION] GET /api/superadmin/usuarios 304 - 11ms
+2026-08-06 12:18:59 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:19:03 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:19:07 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:19:16 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:20:16 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:21:16 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:22:16 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:23:16 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:24:16 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:25:16 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:26:16 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:27:16 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 12:28:34 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:28:34 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 12:28:34 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:28:34 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:28:34 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:28:34 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:28:34 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:28:34 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:28:34 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:28:34
+2026-08-06 12:28:34 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:41:46 [ACTION] GET /api/catalogos/tema 304 - 4ms
+2026-08-06 12:41:46 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 7ms
+2026-08-06 12:41:46 [ACTION] GET /api/catalogos/categorias 304 - 14ms
+2026-08-06 12:41:46 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 12:41:52 [SESSION] Inicio de sesión exitoso: [id=1 | Rol=undefined | Usuario=superadmin] IP: ::1
+2026-08-06 12:41:52 [ACTION] POST /api/auth/login 200 - 63ms
+2026-08-06 12:41:54 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 9ms
+2026-08-06 12:41:54 [ACTION] GET /api/notificaciones 304 - 22ms
+2026-08-06 12:41:54 [ACTION] GET /api/catalogos/tema 304 - 16ms
+2026-08-06 12:41:54 [ACTION] GET /api/catalogos/categorias 304 - 25ms
+2026-08-06 12:41:54 [ACTION] GET /api/superadmin/usuarios 304 - 39ms
+2026-08-06 12:41:54 [ACTION] GET /api/notificaciones 304 - 6ms
+2026-08-06 12:41:58 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:42:02 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:42:06 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:42:10 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:42:14 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:42:18 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:42:22 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:42:26 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:42:30 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:42:34 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:42:38 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:42:42 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:42:46 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:42:50 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:42:54 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:42:58 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:43:09 [ACTION] GET /api/catalogos/tema 304 - 3ms
+2026-08-06 12:43:09 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 3ms
+2026-08-06 12:43:09 [ACTION] GET /api/notificaciones 304 - 9ms
+2026-08-06 12:43:09 [ACTION] GET /api/catalogos/tema 304 - 4ms
+2026-08-06 12:43:09 [ACTION] GET /api/catalogos/categorias 304 - 13ms
+2026-08-06 12:43:09 [ACTION] GET /api/superadmin/usuarios 200 - 21ms
+2026-08-06 12:43:09 [ACTION] GET /api/notificaciones 304 - 8ms
+2026-08-06 12:43:13 [ACTION] GET /api/superadmin/usuarios 200 - 7ms
+2026-08-06 12:43:17 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:43:19 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:43:19 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 12:43:19 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:43:19 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:43:19 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:43:19 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:43:19 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:43:19 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:43:19 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:43:19
+2026-08-06 12:43:19 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:43:21 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:43:25 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 12:43:29 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:43:33 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:43:37 [ACTION] GET /api/superadmin/usuarios 304 - 21ms
+2026-08-06 12:43:41 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:43:45 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:43:49 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:43:53 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:43:57 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:44:01 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:44:05 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:44:09 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:44:13 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:44:15 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:44:15 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 12:44:15 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:44:15 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:44:15 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:44:15 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:44:15 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:44:15 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:44:15 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:44:15
+2026-08-06 12:44:15 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:44:17 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:44:21 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:44:25 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:44:29 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:44:33 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:44:37 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:44:41 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:44:45 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 12:44:49 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:44:53 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:44:57 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:45:01 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:45:05 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:45:09 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:45:13 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:45:17 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:45:21 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:45:25 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:45:29 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:45:33 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:45:37 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:45:41 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:45:45 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:45:49 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:45:53 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:45:57 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:46:01 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:46:05 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:46:09 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:46:13 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:46:17 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:46:21 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:46:25 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:46:29 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:46:33 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:46:37 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:46:41 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:46:45 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:46:49 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:46:53 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:46:57 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:47:01 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:47:05 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:47:09 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:47:13 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:47:17 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:47:21 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:47:25 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:47:29 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:47:33 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:47:37 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:47:41 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:47:45 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:47:49 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:47:53 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:47:57 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:48:01 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:48:05 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:48:09 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:48:13 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:48:17 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:48:21 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:48:25 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:48:29 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:48:33 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:48:37 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:48:41 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:48:45 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:48:49 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:48:53 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:48:57 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:49:01 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:49:05 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:49:09 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:49:13 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:49:17 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:49:21 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:49:25 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:49:29 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:49:33 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:49:37 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:49:41 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:49:45 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:49:49 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:49:53 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:49:57 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:50:01 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:50:05 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:50:09 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:50:13 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:50:17 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:50:21 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:50:25 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:50:29 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:50:33 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:50:37 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:50:41 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:50:45 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:50:49 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:50:53 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:50:57 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:51:01 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:51:05 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:51:09 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:51:13 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:51:17 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:51:21 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:51:25 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:51:29 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:51:33 [ACTION] GET /api/superadmin/usuarios 304 - 39ms
+2026-08-06 12:51:37 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:51:41 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:51:45 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:51:49 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:51:53 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:51:57 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:52:01 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:52:05 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:52:09 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:52:13 [ACTION] GET /api/catalogos/tema 304 - 3ms
+2026-08-06 12:52:14 [ACTION] GET /api/notificaciones 304 - 11ms
+2026-08-06 12:52:14 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 8ms
+2026-08-06 12:52:14 [ACTION] GET /api/catalogos/tema 304 - 13ms
+2026-08-06 12:52:14 [ACTION] GET /api/catalogos/categorias 304 - 15ms
+2026-08-06 12:52:14 [ACTION] GET /api/notificaciones 304 - 11ms
+2026-08-06 12:52:14 [ACTION] GET /api/superadmin/usuarios 304 - 30ms
+2026-08-06 12:52:18 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:52:22 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:52:26 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:52:30 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:52:36 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:52:36 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 12:52:36 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:52:36 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:52:36 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:52:36 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:52:36 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:52:36 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:52:36 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:52:36
+2026-08-06 12:52:36 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:52:38 [ACTION] GET /api/superadmin/usuarios 200 - 28ms
+2026-08-06 12:52:42 [ACTION] GET /api/superadmin/usuarios 304 - 12ms
+2026-08-06 12:52:46 [ACTION] GET /api/superadmin/usuarios 304 - 18ms
+2026-08-06 12:52:50 [ACTION] GET /api/superadmin/usuarios 304 - 15ms
+2026-08-06 12:52:54 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:52:58 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:53:02 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:53:06 [ACTION] GET /api/superadmin/usuarios 304 - 21ms
+2026-08-06 12:53:10 [ACTION] GET /api/superadmin/usuarios 304 - 12ms
+2026-08-06 12:53:16 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:54:16 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 12:55:16 [ACTION] GET /api/superadmin/usuarios 304 - 5ms
+2026-08-06 12:56:16 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:56:41 [ACTION] GET /api/catalogos/tema 200 - 3ms
+2026-08-06 12:56:41 [ACTION] GET /api/catalogos/tema 304 - 4ms
+2026-08-06 12:56:41 [ACTION] GET /api/catalogos/convocatoria-activa 200 - 7ms
+2026-08-06 12:56:41 [ACTION] GET /api/notificaciones 200 - 15ms
+2026-08-06 12:56:41 [ACTION] GET /api/catalogos/categorias 200 - 16ms
+2026-08-06 12:56:41 [ACTION] GET /api/superadmin/usuarios 200 - 26ms
+2026-08-06 12:56:41 [ACTION] GET /api/notificaciones 304 - 9ms
+2026-08-06 12:56:45 [ACTION] GET /api/superadmin/usuarios 304 - 12ms
+2026-08-06 12:56:49 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:56:53 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:56:57 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:57:01 [ACTION] GET /api/superadmin/usuarios 304 - 14ms
+2026-08-06 12:57:05 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:57:09 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:57:13 [ACTION] GET /api/superadmin/usuarios 304 - 13ms
+2026-08-06 12:57:17 [ACTION] GET /api/superadmin/usuarios 304 - 17ms
+2026-08-06 12:57:20 [ACTION] GET /api/notificaciones 304 - 4ms
+2026-08-06 12:57:20 [ACTION] GET /api/notificaciones 304 - 5ms
+2026-08-06 12:57:21 [ACTION] GET /api/catalogos/tema 304 - 2ms
+2026-08-06 12:57:21 [ACTION] GET /api/notificaciones 304 - 6ms
+2026-08-06 12:57:21 [ACTION] GET /api/catalogos/tema 304 - 5ms
+2026-08-06 12:57:21 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 8ms
+2026-08-06 12:57:21 [ACTION] GET /api/catalogos/categorias 304 - 11ms
+2026-08-06 12:57:21 [ACTION] GET /api/notificaciones 304 - 16ms
+2026-08-06 12:57:21 [ACTION] GET /api/superadmin/usuarios 304 - 25ms
+2026-08-06 12:57:25 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 12:57:29 [ACTION] GET /api/superadmin/usuarios 304 - 13ms
+2026-08-06 12:57:33 [ACTION] GET /api/superadmin/usuarios 304 - 16ms
+2026-08-06 12:57:37 [ACTION] GET /api/superadmin/usuarios 304 - 11ms
+2026-08-06 12:57:41 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 12:57:41 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 12:57:41 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 12:57:41 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 12:57:41 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 12:57:41 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 12:57:41 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 12:57:41 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 12:57:41 [SYSTEM] ⏰ Inicio       : 2026-08-06 18:57:41
+2026-08-06 12:57:41 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 12:57:41 [ACTION] GET /api/superadmin/usuarios 304 - 12ms
+2026-08-06 12:57:45 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:57:49 [ACTION] GET /api/superadmin/usuarios 304 - 16ms
+2026-08-06 12:57:53 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 12:57:57 [ACTION] GET /api/superadmin/usuarios 304 - 15ms
+2026-08-06 12:58:01 [ACTION] GET /api/superadmin/usuarios 304 - 16ms
+2026-08-06 12:58:05 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 12:58:09 [ACTION] GET /api/superadmin/usuarios 304 - 12ms
+2026-08-06 12:58:13 [ACTION] GET /api/superadmin/usuarios 304 - 11ms
+2026-08-06 12:58:17 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 12:59:16 [ACTION] GET /api/superadmin/usuarios 304 - 15ms
+2026-08-06 13:00:16 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 13:00:44 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:00:44 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:00:44 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:00:44 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:00:44 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:00:44 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:00:44 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:00:44 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:00:44 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:00:44
+2026-08-06 13:00:44 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:01:16 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 13:02:16 [ACTION] GET /api/superadmin/usuarios 401 - 4ms
+2026-08-06 13:03:16 [ACTION] GET /api/superadmin/usuarios 401 - 0ms
+2026-08-06 13:10:56 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:10:56 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:10:56 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:10:56 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:10:56 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:10:56 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:10:56 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:10:56 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:10:56 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:10:56
+2026-08-06 13:10:56 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:11:01 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:11:01 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:11:01 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:11:01 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:11:01 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:11:01 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:11:01 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:11:01 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:11:01 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:11:01
+2026-08-06 13:11:01 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:11:57 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:11:57 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:11:57 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:11:57 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:11:57 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:11:57 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:11:57 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:11:57 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:11:57 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:11:57
+2026-08-06 13:11:57 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:18:26 [ACTION] GET /api/catalogos/tema 304 - 9ms
+2026-08-06 13:18:26 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 17ms
+2026-08-06 13:18:26 [ACTION] GET /api/catalogos/categorias 304 - 24ms
+2026-08-06 13:18:26 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:18:36 [SESSION] Inicio de sesión exitoso: [id=7 | Rol=undefined | Usuario=validador] IP: ::1
+2026-08-06 13:18:36 [ACTION] POST /api/auth/login 200 - 65ms
+2026-08-06 13:18:38 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 6ms
+2026-08-06 13:18:38 [ACTION] GET /api/catalogos/tema 304 - 10ms
+2026-08-06 13:18:38 [ACTION] GET /api/notificaciones 304 - 14ms
+2026-08-06 13:18:38 [ACTION] GET /api/catalogos/categorias 304 - 19ms
+2026-08-06 13:18:38 [ACTION] GET /api/notificaciones 304 - 5ms
+2026-08-06 13:18:38 [ACTION] GET /api/admin/participantes 200 - 25ms
+2026-08-06 13:18:45 [SESSION] Cierre de sesión: [id=7 | Rol=undefined | Usuario=validador] IP: ::1
+2026-08-06 13:18:45 [ACTION] POST /api/auth/logout 200 - 12ms
+2026-08-06 13:18:46 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 13:18:46 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:18:46 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 13:18:57 [ERROR] Fallo de inicio de sesión para usuario "carlos": Credenciales incorrectas o usuario inactivo.
+2026-08-06 13:18:57 [ACTION] POST /api/auth/login 401 - 50ms
+2026-08-06 13:19:42 [ERROR] Fallo de inicio de sesión para usuario "carlos": Credenciales incorrectas o usuario inactivo.
+2026-08-06 13:19:42 [ACTION] POST /api/auth/login 401 - 73ms
+2026-08-06 13:19:48 [ERROR] Fallo de inicio de sesión para usuario "carlos": Credenciales incorrectas o usuario inactivo.
+2026-08-06 13:19:48 [ACTION] POST /api/auth/login 401 - 68ms
+2026-08-06 13:21:23 [ERROR] Fallo de inicio de sesión para usuario "Carlos": Credenciales incorrectas o usuario inactivo.
+2026-08-06 13:21:23 [ACTION] POST /api/auth/login 401 - 68ms
+2026-08-06 13:21:33 [ERROR] Fallo de inicio de sesión para usuario "carlos": Credenciales incorrectas o usuario inactivo.
+2026-08-06 13:21:33 [ACTION] POST /api/auth/login 401 - 68ms
+2026-08-06 13:21:42 [ERROR] Fallo de inicio de sesión para usuario "carlos": Credenciales incorrectas o usuario inactivo.
+2026-08-06 13:21:42 [ACTION] POST /api/auth/login 401 - 68ms
+2026-08-06 13:21:48 [SESSION] Inicio de sesión exitoso: [id=1 | Rol=undefined | Usuario=superadmin] IP: ::1
+2026-08-06 13:21:48 [ACTION] POST /api/auth/login 200 - 77ms
+2026-08-06 13:21:50 [ACTION] GET /api/catalogos/tema 304 - 10ms
+2026-08-06 13:21:50 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 14ms
+2026-08-06 13:21:50 [ACTION] GET /api/notificaciones 304 - 26ms
+2026-08-06 13:21:50 [ACTION] GET /api/catalogos/categorias 304 - 31ms
+2026-08-06 13:21:50 [ACTION] GET /api/superadmin/usuarios 200 - 37ms
+2026-08-06 13:21:50 [ACTION] GET /api/notificaciones 304 - 10ms
+2026-08-06 13:21:54 [ACTION] GET /api/superadmin/usuarios 304 - 11ms
+2026-08-06 13:21:58 [ACTION] GET /api/superadmin/usuarios 304 - 6ms
+2026-08-06 13:22:02 [ACTION] GET /api/superadmin/usuarios 304 - 11ms
+2026-08-06 13:22:06 [ACTION] GET /api/superadmin/usuarios 304 - 8ms
+2026-08-06 13:22:10 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 13:22:14 [ACTION] GET /api/superadmin/usuarios 304 - 9ms
+2026-08-06 13:22:16 [ACTION] PUT /api/superadmin/usuarios/13 200 - 72ms
+2026-08-06 13:22:16 [ACTION] GET /api/superadmin/usuarios 304 - 10ms
+2026-08-06 13:22:18 [ACTION] GET /api/superadmin/usuarios 304 - 7ms
+2026-08-06 13:22:20 [SESSION] Cierre de sesión: [id=1 | Rol=undefined | Usuario=superadmin] IP: ::1
+2026-08-06 13:22:20 [ACTION] POST /api/auth/logout 200 - 10ms
+2026-08-06 13:22:20 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 13:22:20 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 13:22:20 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 13:22:28 [SESSION] Inicio de sesión exitoso: [id=13 | Rol=undefined | Usuario=carlos] IP: ::1
+2026-08-06 13:22:28 [ACTION] POST /api/auth/login 200 - 56ms
+2026-08-06 13:22:30 [ACTION] GET /api/notificaciones 304 - 5ms
+2026-08-06 13:22:30 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 8ms
+2026-08-06 13:22:30 [ACTION] GET /api/catalogos/tema 304 - 5ms
+2026-08-06 13:22:30 [ACTION] GET /api/catalogos/categorias 304 - 11ms
+2026-08-06 13:22:30 [ACTION] GET /api/notificaciones 304 - 8ms
+2026-08-06 13:22:30 [ACTION] GET /api/admin/participantes 304 - 19ms
+2026-08-06 13:22:35 [SESSION] Cierre de sesión: [id=13 | Rol=undefined | Usuario=carlos] IP: ::1
+2026-08-06 13:22:35 [ACTION] POST /api/auth/logout 200 - 12ms
+2026-08-06 13:22:35 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 13:22:35 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:22:35 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 13:24:20 [ACTION] GET /api/catalogos/tema 200 - 3ms
+2026-08-06 13:24:20 [ACTION] GET /api/catalogos/convocatoria-activa 200 - 3ms
+2026-08-06 13:24:20 [ACTION] GET /api/catalogos/categorias 200 - 5ms
+2026-08-06 13:24:20 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:26:39 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:26:39 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:26:39 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:26:39 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:26:39 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:26:39 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:26:39 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:26:39 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:26:39 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:26:39
+2026-08-06 13:26:39 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:27:15 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:27:15 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:27:15 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:27:15 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:27:15 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:27:15 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:27:15 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:27:15 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:27:15 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:27:15
+2026-08-06 13:27:15 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:27:50 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:27:50 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:27:50 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:27:50 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:27:50 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:27:50 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:27:50 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:27:50 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:27:50 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:27:50
+2026-08-06 13:27:50 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:45:08 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:45:08 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:45:08 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:45:08 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:45:08 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:45:08 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:45:08 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:45:08 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:45:08 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:45:08
+2026-08-06 13:45:08 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:45:35 [ACTION] GET /api/catalogos/tema 200 - 12ms
+2026-08-06 13:45:35 [ACTION] GET /api/catalogos/convocatoria-activa 200 - 40ms
+2026-08-06 13:45:35 [ACTION] GET /api/catalogos/categorias 200 - 47ms
+2026-08-06 13:45:35 [ACTION] GET /api/catalogos/categorias 200 - 6ms
+2026-08-06 13:45:41 [ACTION] Solicitud de recuperación de contraseña para: brunisgcl@gmail.com
+2026-08-06 13:45:41 [ACTION] POST /api/auth/solicitar-recuperacion 200 - 31ms
+2026-08-06 13:46:08 [ACTION] GET /api/catalogos/tema 304 - 4ms
+2026-08-06 13:46:08 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 5ms
+2026-08-06 13:46:08 [ACTION] GET /api/catalogos/categorias 304 - 7ms
+2026-08-06 13:46:08 [ACTION] GET /api/catalogos/categorias 304 - 7ms
+2026-08-06 13:46:13 [ACTION] Solicitud de recuperación de contraseña para: brunisgcl@gmail.com
+2026-08-06 13:46:13 [ACTION] POST /api/auth/solicitar-recuperacion 200 - 11ms
+2026-08-06 13:46:52 [ACTION] GET /api/catalogos/tema 304 - 2ms
+2026-08-06 13:46:52 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 17ms
+2026-08-06 13:47:12 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 2ms
+2026-08-06 13:47:36 [ACTION] Contraseña restablecida con éxito para token: 139009A6
+2026-08-06 13:47:36 [ACTION] POST /api/auth/restablecer-password 200 - 71ms
+2026-08-06 13:47:38 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 3ms
+2026-08-06 13:47:38 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:47:38 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 13:49:07 [ACTION] GET /api/catalogos/tema 304 - 2ms
+2026-08-06 13:49:07 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 3ms
+2026-08-06 13:49:07 [ACTION] GET /api/catalogos/categorias 304 - 6ms
+2026-08-06 13:49:07 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:49:07 [ACTION] GET /api/catalogos/tema 304 - 3ms
+2026-08-06 13:49:07 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 4ms
+2026-08-06 13:49:07 [ACTION] GET /api/catalogos/categorias 304 - 9ms
+2026-08-06 13:49:07 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:49:18 [ACTION] GET /api/catalogos/tema 304 - 3ms
+2026-08-06 13:49:18 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 4ms
+2026-08-06 13:49:18 [ACTION] GET /api/catalogos/categorias 304 - 7ms
+2026-08-06 13:49:18 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 13:49:18 [ACTION] GET /api/catalogos/tema 304 - 4ms
+2026-08-06 13:49:18 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 3ms
+2026-08-06 13:49:18 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 13:49:18 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 13:50:32 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:50:32 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:50:32 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:50:32 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:50:32 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:50:32 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:50:32 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:50:32 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:50:32 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:50:32
+2026-08-06 13:50:32 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:52:15 [ACTION] GET /api/catalogos/tema 200 - 12ms
+2026-08-06 13:52:15 [ACTION] GET /api/catalogos/convocatoria-activa 200 - 38ms
+2026-08-06 13:52:15 [ACTION] GET /api/catalogos/categorias 200 - 49ms
+2026-08-06 13:52:15 [ACTION] GET /api/catalogos/categorias 304 - 11ms
+2026-08-06 13:52:20 [ACTION] Solicitud de recuperación de contraseña para: brunisgcl@gmail.com
+2026-08-06 13:52:20 [ACTION] POST /api/auth/solicitar-recuperacion 200 - 21ms
+2026-08-06 13:52:43 [ACTION] GET /api/catalogos/tema 304 - 4ms
+2026-08-06 13:52:43 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 4ms
+2026-08-06 13:53:38 [ACTION] GET /api/catalogos/tema 304 - 10ms
+2026-08-06 13:53:38 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 5ms
+2026-08-06 13:53:39 [ACTION] GET /api/catalogos/tema 304 - 3ms
+2026-08-06 13:53:39 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 3ms
+2026-08-06 13:53:39 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 13:53:39 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:53:58 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:53:58 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:53:58 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:53:58 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:53:58 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:53:58 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:53:58 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:53:58 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:53:58 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:53:58
+2026-08-06 13:53:58 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:54:20 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 15ms
+2026-08-06 13:54:20 [ACTION] GET /api/catalogos/categorias 304 - 17ms
+2026-08-06 13:54:20 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 13:54:24 [ACTION] Solicitud de recuperación de contraseña para: brunisgcl@gmail.com
+2026-08-06 13:54:24 [ACTION] POST /api/auth/solicitar-recuperacion 200 - 18ms
+2026-08-06 13:55:05 [ACTION] GET /api/catalogos/tema 200 - 3ms
+2026-08-06 13:55:05 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 2ms
+2026-08-06 13:55:09 [ACTION] GET /api/catalogos/convocatoria-activa 200 - 2ms
+2026-08-06 13:55:09 [ACTION] GET /api/catalogos/categorias 200 - 4ms
+2026-08-06 13:55:09 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 13:55:13 [ACTION] Solicitud de recuperación de contraseña para: brunisgcl@gmail.com
+2026-08-06 13:55:13 [ACTION] POST /api/auth/solicitar-recuperacion 200 - 10ms
+2026-08-06 13:56:12 [ACTION] GET /api/catalogos/tema 304 - 6ms
+2026-08-06 13:56:12 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 5ms
+2026-08-06 13:57:15 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 2ms
+2026-08-06 13:57:30 [ACTION] GET /api/catalogos/tema 304 - 2ms
+2026-08-06 13:57:30 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 1ms
+2026-08-06 13:57:41 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 13:57:41 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 13:57:41 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 13:57:41 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 13:57:41 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 13:57:41 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 13:57:41 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 13:57:41 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 13:57:41 [SYSTEM] ⏰ Inicio       : 2026-08-06 19:57:41
+2026-08-06 13:57:41 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 13:58:28 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 19ms
+2026-08-06 13:58:28 [ACTION] GET /api/catalogos/categorias 304 - 27ms
+2026-08-06 13:58:28 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 13:58:32 [ACTION] GET /api/catalogos/tema 200 - 4ms
+2026-08-06 13:58:32 [ACTION] GET /api/catalogos/convocatoria-activa 200 - 2ms
+2026-08-06 13:58:32 [ACTION] GET /api/catalogos/categorias 200 - 4ms
+2026-08-06 13:58:32 [ACTION] GET /api/catalogos/categorias 200 - 6ms
+2026-08-06 13:58:37 [ACTION] Solicitud de recuperación de contraseña para: brunisgcl@gmail.com
+2026-08-06 13:58:37 [ACTION] POST /api/auth/solicitar-recuperacion 200 - 25ms
+2026-08-06 13:58:46 [ACTION] GET /api/catalogos/tema 304 - 2ms
+2026-08-06 13:58:46 [ACTION] POST /api/auth/validar-token-recuperacion 200 - 4ms
+2026-08-06 13:58:53 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 13:58:53 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 13:58:53 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 14:02:31 [ACTION] GET /api/catalogos/tema 304 - 5ms
+2026-08-06 14:02:31 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 4ms
+2026-08-06 14:02:31 [ACTION] GET /api/catalogos/categorias 304 - 7ms
+2026-08-06 14:02:31 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 14:02:51 [ACTION] GET /api/catalogos/tema 304 - 3ms
+2026-08-06 14:02:51 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 3ms
+2026-08-06 14:02:51 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 14:02:51 [ACTION] GET /api/catalogos/categorias 304 - 7ms
+2026-08-06 14:03:06 [ACTION] GET /api/catalogos/tema 304 - 2ms
+2026-08-06 14:03:06 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 14:03:06 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 14:03:06 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 14:03:13 [ACTION] GET /api/catalogos/tema 304 - 2ms
+2026-08-06 14:03:13 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 14:03:13 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 14:03:13 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 14:03:26 [ACTION] GET /api/catalogos/tema 304 - 5ms
+2026-08-06 14:03:26 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 14:03:26 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 14:03:26 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 14:03:42 [ACTION] GET /api/catalogos/tema 304 - 3ms
+2026-08-06 14:03:42 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 2ms
+2026-08-06 14:03:42 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 14:03:42 [ACTION] GET /api/catalogos/categorias 304 - 5ms
+2026-08-06 14:05:12 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 14:05:12 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 14:05:12 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 14:05:12 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 14:05:12 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 14:05:12 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 14:05:12 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 14:05:12 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 14:05:12 [SYSTEM] ⏰ Inicio       : 2026-08-06 20:05:12
+2026-08-06 14:05:12 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 14:05:12 [ACTION] GET /api/catalogos/categorias 304 - 15ms
+2026-08-06 14:05:12 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 14:05:16 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 14:05:16 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 14:05:16 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 14:05:16 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 14:05:16 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 14:05:16 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 14:05:16 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 14:05:16 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 14:05:16 [SYSTEM] ⏰ Inicio       : 2026-08-06 20:05:16
+2026-08-06 14:05:16 [SYSTEM] ══════════════════════════════════════════
+2026-08-06 14:05:40 [ACTION] Solicitud de recuperación de contraseña para: brunisgcl@gmail.com
+2026-08-06 14:05:40 [ACTION] POST /api/auth/solicitar-recuperacion 200 - 42ms
+2026-08-06 14:06:01 [ERROR] Error al restablecer contraseña: La contraseña debe incluir al menos uno de los caracteres especiales permitidos ( . , ! - ).
+2026-08-06 14:06:01 [ACTION] POST /api/auth/restablecer-password 400 - 1ms
+2026-08-06 14:06:11 [ACTION] Contraseña restablecida con éxito para token: 0D143A00
+2026-08-06 14:06:11 [ACTION] POST /api/auth/restablecer-password 200 - 68ms
+2026-08-06 14:06:40 [ACTION] GET /api/catalogos/tema 304 - 3ms
+2026-08-06 14:06:40 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 4ms
+2026-08-06 14:06:40 [ACTION] GET /api/catalogos/categorias 304 - 10ms
+2026-08-06 14:06:40 [ACTION] GET /api/catalogos/convocatoria-activa 304 - 4ms
+2026-08-06 14:06:40 [ACTION] GET /api/catalogos/categorias 304 - 6ms
+2026-08-06 14:06:40 [ACTION] GET /api/catalogos/categorias 304 - 3ms
+2026-08-06 14:06:40 [ACTION] GET /api/catalogos/categorias 304 - 4ms
+2026-08-06 14:11:13 [SYSTEM] ╔══════════════════════════════════════╗
+2026-08-06 14:11:13 [SYSTEM] ║   HACKATON 2027 — Backend API  ║
+2026-08-06 14:11:13 [SYSTEM] ╚══════════════════════════════════════╝
+2026-08-06 14:11:13 [SYSTEM] 🌐 Ambiente     : development
+2026-08-06 14:11:13 [SYSTEM] 🚀 Servidor     : http://localhost:3005
+2026-08-06 14:11:13 [SYSTEM] 📦 Base de datos: ensayo2027 @ 145.0.40.72
+2026-08-06 14:11:13 [SYSTEM] ✅ Conexión BD  : Exitosa
+2026-08-06 14:11:13 [SYSTEM] 📋 Versión API  : v1
+2026-08-06 14:11:13 [SYSTEM] ⏰ Inicio       : 2026-08-06 20:11:13
+2026-08-06 14:11:13 [SYSTEM] ══════════════════════════════════════════
