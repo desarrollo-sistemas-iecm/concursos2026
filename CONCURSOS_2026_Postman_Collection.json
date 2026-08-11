@@ -1,0 +1,643 @@
+{
+	"info": {
+		"_postman_id": "c2026-api-collection-iecm",
+		"name": "CONCURSOS 2026 - IECM API Collection",
+		"description": "Colección completa de APIs de la plataforma Concurso 2026 / Hackatón IECM (Backend Express + SQL Server)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3005",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "string"
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "1. Autenticación",
+			"item": [
+				{
+					"name": "POST Login (Auto-captura Token)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();",
+									"if (jsonData.token) {",
+									"    pm.collectionVariables.set('token', jsonData.token);",
+									"    console.log('Token guardado en colección:', jsonData.token);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"usuario\": \"superadmin\",\n  \"contrasena\": \"SuperAdmin2026!\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/login",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "login"]
+						},
+						"description": "Inicio de sesión. Extrae y guarda automáticamente el token JWT devuelto en la variable {{token}} de la colección."
+					}
+				},
+				{
+					"name": "POST Registro de Usuario (Participante)",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Juan\",\n  \"apellido_pat\": \"Pérez\",\n  \"apellido_mat\": \"Gómez\",\n  \"curp\": \"PEGJ980101HDFRRR01\",\n  \"genero\": \"Masculino\",\n  \"fecha_nacimiento\": \"1998-01-01\",\n  \"correo\": \"juan.perez@ejemplo.com\",\n  \"usuario\": \"juanperez\",\n  \"contrasena\": \"Password123!\",\n  \"telefono_casa\": \"5555555555\",\n  \"celular_personal\": \"5512345678\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/registro",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "registro"]
+						}
+					}
+				},
+				{
+					"name": "GET Perfil del Usuario Autenticado",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/perfil",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "perfil"]
+						}
+					}
+				},
+				{
+					"name": "POST Logout (Cerrar Sesión)",
+					"request": {
+						"method": "POST",
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/logout",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "logout"]
+						}
+					}
+				},
+				{
+					"name": "POST Solicitar Recuperación de Contraseña",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"correo\": \"juan.perez@ejemplo.com\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/solicitar-recuperacion",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "solicitar-recuperacion"]
+						}
+					}
+				},
+				{
+					"name": "POST Validar Token Recuperación",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"token\": \"TOKEN_DE_RECUPERACION_AQUI\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/validar-token-recuperacion",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "validar-token-recuperacion"]
+						}
+					}
+				},
+				{
+					"name": "POST Restablecer Contraseña con Token",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"token\": \"TOKEN_DE_RECUPERACION_AQUI\",\n  \"nueva_contrasena\": \"NuevoPass2026!\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/restablecer-password",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "restablecer-password"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "2. Catálogos Públicos",
+			"item": [
+				{
+					"name": "GET Catálogo de Alcaldías",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/catalogos/alcaldias",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "catalogos", "alcaldias"]
+						}
+					}
+				},
+				{
+					"name": "GET Catálogo ¿Cómo te enteraste?",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/catalogos/te-enteraste",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "catalogos", "te-enteraste"]
+						}
+					}
+				},
+				{
+					"name": "GET Catálogo de Manifestaciones",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/catalogos/manifestaciones",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "catalogos", "manifestaciones"]
+						}
+					}
+				},
+				{
+					"name": "GET Catálogo de Categorías",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/catalogos/categorias",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "catalogos", "categorias"]
+						}
+					}
+				},
+				{
+					"name": "GET Convocatoria Activa",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/catalogos/convocatoria-activa",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "catalogos", "convocatoria-activa"]
+						}
+					}
+				},
+				{
+					"name": "GET Configuración de Tema (Colores)",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/catalogos/tema",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "catalogos", "tema"]
+						}
+					}
+				},
+				{
+					"name": "GET Requisitos de Archivos Activos",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/catalogos/requisitos-archivos",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "catalogos", "requisitos-archivos"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "3. Participante (Rol 1)",
+			"item": [
+				{
+					"name": "GET Mi Registro como Participante",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/participante/mi-registro",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "participante", "mi-registro"]
+						}
+					}
+				},
+				{
+					"name": "POST Completar Registro / Subir Ensayo",
+					"request": {
+						"method": "POST",
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{ "key": "id_categoria", "value": "1", "type": "text" },
+								{ "key": "id_alcaldia", "value": "1", "type": "text" },
+								{ "key": "id_te_enteraste", "value": "1", "type": "text" },
+								{ "key": "seudonimo", "value": "ElPensador2026", "type": "text" },
+								{ "key": "titulo_ensayo", "value": "Democracia y Participación Ciudadana", "type": "text" },
+								{ "key": "obra", "value": "Cuentos de la Ciudad", "type": "text" },
+								{ "key": "manifestaciones", "value": "[{\"id_manifestacion\":1,\"respuesta\":1}]", "type": "text" },
+								{ "key": "archivo_ensayo", "type": "file", "src": [] }
+							]
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/participante/completar-registro",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "participante", "completar-registro"]
+						}
+					}
+				},
+				{
+					"name": "GET Mis Archivos Requisitos",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/participante/mis-archivos",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "participante", "mis-archivos"]
+						}
+					}
+				},
+				{
+					"name": "POST Subir Archivo Requisito Dinámico",
+					"request": {
+						"method": "POST",
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{ "key": "id_requisito", "value": "1", "type": "text" },
+								{ "key": "archivo", "type": "file", "src": [] }
+							]
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/participante/subir-archivo-requisito",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "participante", "subir-archivo-requisito"]
+						}
+					}
+				},
+				{
+					"name": "DELETE Eliminar Archivo Requisito",
+					"request": {
+						"method": "DELETE",
+						"url": {
+							"raw": "{{baseUrl}}/api/participante/eliminar-archivo-requisito/1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "participante", "eliminar-archivo-requisito", "1"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "4. Administrador (Roles 2 y 4)",
+			"item": [
+				{
+					"name": "GET Lista de Participantes para Validación",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/admin/participantes",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "admin", "participantes"]
+						}
+					}
+				},
+				{
+					"name": "GET Archivos de un Participante",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/admin/participante-archivos/1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "admin", "participante-archivos", "1"]
+						}
+					}
+				},
+				{
+					"name": "POST Validar Ensayo (Asignar Folio)",
+					"request": {
+						"method": "POST",
+						"url": {
+							"raw": "{{baseUrl}}/api/admin/validar/1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "admin", "validar", "1"]
+						}
+					}
+				},
+				{
+					"name": "POST Registrar Observaciones (Rechazar/Corregir)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"observaciones\": \"El archivo adjunto no corresponde al formato solicitado.\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/admin/observaciones/1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "admin", "observaciones", "1"]
+						}
+					}
+				},
+				{
+					"name": "GET Exportar Reporte Excel",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/admin/reportes/excel?tipo=general",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "admin", "reportes", "excel"],
+							"query": [
+								{ "key": "tipo", "value": "general" }
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "5. Juez Calificador (Rol 3)",
+			"item": [
+				{
+					"name": "GET Lista de Ensayos para Evaluación",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/juez/ensayos",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "juez", "ensayos"]
+						}
+					}
+				},
+				{
+					"name": "POST Registrar Calificación",
+					"request": {
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_participante\": 1,\n  \"califica1\": 9.5,\n  \"califica2\": 8.0,\n  \"califica3\": 9.0,\n  \"califica4\": 10.0,\n  \"califica5\": 9.5,\n  \"califica6\": 8.5,\n  \"observaciones\": \"Excelente ensayo con buena estructura argumentativa.\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/juez/calificar",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "juez", "calificar"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "6. Superadministrador (Rol 4)",
+			"item": [
+				{
+					"name": "GET Convocatorias",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/superadmin/convocatorias",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "superadmin", "convocatorias"]
+						}
+					}
+				},
+				{
+					"name": "POST Crear/Editar Convocatoria",
+					"request": {
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"anio\": 2026,\n  \"nombre\": \"Registro Hackatón 2026\",\n  \"fecha_inicio\": \"2026-01-01\",\n  \"fecha_fin\": \"2026-12-31\",\n  \"status\": 1\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/superadmin/convocatorias",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "superadmin", "convocatorias"]
+						}
+					}
+				},
+				{
+					"name": "GET Categorías de Convocatoria",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/superadmin/categorias/1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "superadmin", "categorias", "1"]
+						}
+					}
+				},
+				{
+					"name": "GET Usuarios (Padrón)",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/superadmin/usuarios",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "superadmin", "usuarios"]
+						}
+					}
+				},
+				{
+					"name": "POST Crear Usuario",
+					"request": {
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_tipousuario\": 2,\n  \"nombre\": \"Carlos\",\n  \"apellido_pat\": \"López\",\n  \"apellido_mat\": \"Mendoza\",\n  \"correo\": \"carlos.admin@iecm.mx\",\n  \"usuario\": \"carlosadmin\",\n  \"contrasena\": \"AdminPass2026!\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/superadmin/usuarios",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "superadmin", "usuarios"]
+						}
+					}
+				},
+				{
+					"name": "GET Estadísticas Globales & Productividad",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/superadmin/estadisticas?id_convocatoria=1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "superadmin", "estadisticas"],
+							"query": [
+								{ "key": "id_convocatoria", "value": "1" }
+							]
+						}
+					}
+				},
+				{
+					"name": "GET Sesiones Activas en Vivo",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/superadmin/sesiones",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "superadmin", "sesiones"]
+						}
+					}
+				},
+				{
+					"name": "POST Forzar Logout Usuario",
+					"request": {
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_usuario\": 5\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/superadmin/sesiones/kick",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "superadmin", "sesiones", "kick"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "7. Notificaciones",
+			"item": [
+				{
+					"name": "GET Mis Notificaciones",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/notificaciones",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "notificaciones"]
+						}
+					}
+				},
+				{
+					"name": "POST Crear Notificación (Broadcast / Usuario)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_tipousuario_destino\": 1,\n  \"id_usuario_destino\": null,\n  \"tipo\": \"SUCCESS\",\n  \"asunto\": \"Término de Periodo de Registro\",\n  \"mensaje\": \"Se terminó el periodo de registro. Muchas gracias a todos por su apoyo.\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/notificaciones/crear",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "notificaciones", "crear"]
+						}
+					}
+				},
+				{
+					"name": "POST Marcar Notificación como Leída",
+					"request": {
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_notificacion\": 1\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/notificaciones/marcar-leida",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "notificaciones", "marcar-leida"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "8. Acuses y Documentos",
+			"item": [
+				{
+					"name": "GET Solicitar Token Descarga Acuse",
+					"request": {
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/documentos/descargar-acuse",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "documentos", "descargar-acuse"]
+						}
+					}
+				},
+				{
+					"name": "GET Obtener PDF de Acuse de Inscripción",
+					"request": {
+						"auth": { "type": "noauth" },
+						"method": "GET",
+						"url": {
+							"raw": "{{baseUrl}}/api/documentos/obtener-acuse?token=TOKEN_DE_ACUSE_AQUI",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "documentos", "obtener-acuse"],
+							"query": [
+								{ "key": "token", "value": "TOKEN_DE_ACUSE_AQUI" }
+							]
+						}
+					}
+				}
+			]
+		}
+	]
+}

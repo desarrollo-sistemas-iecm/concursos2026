@@ -116,6 +116,63 @@ class CatalogoService {
     };
   }
 
+  evaluarVentanaAcceso(convocatoria, id_tipousuario) {
+    if (!convocatoria || Number(convocatoria.status) !== 1) {
+      return { valido: true };
+    }
+
+    // Superadmin (4) y Admin (2) siempre tienen acceso libre por seguridad operativa
+    if (Number(id_tipousuario) === 4 || Number(id_tipousuario) === 2) {
+      return { valido: true };
+    }
+
+    // Determinar qué roles tienen el acceso restringido por fechas
+    const rolesRestringidos = convocatoria.roles_restringidos_acceso
+      ? convocatoria.roles_restringidos_acceso.split(',').map(r => Number(r.trim()))
+      : [1];
+
+    if (!rolesRestringidos.includes(Number(id_tipousuario))) {
+      return { valido: true };
+    }
+
+    // Si no tiene fechas de acceso específicas definidas, usa por defecto las fechas de inicio/fin de la convocatoria
+    const inicioStr = this.normalizarFecha(convocatoria.fecha_inicio_acceso || convocatoria.fecha_inicio);
+    const finStr = this.normalizarFecha(convocatoria.fecha_fin_acceso || convocatoria.fecha_fin);
+
+    if (!inicioStr || !finStr) {
+      return { valido: true };
+    }
+
+    const ahora = new Date();
+    const [iAnio, iMes, iDia] = inicioStr.split('-').map(Number);
+    const fechaInicio = new Date(iAnio, iMes - 1, iDia, 0, 0, 0, 0);
+
+    const [fAnio, fMes, fDia] = finStr.split('-').map(Number);
+    const fechaFin = new Date(fAnio, fMes - 1, fDia, 23, 59, 59, 999);
+
+    if (ahora < fechaInicio) {
+      const fechaFormat = this.formatearFechaTexto(inicioStr);
+      return {
+        valido: false,
+        estado: 'ANTES_DE_INICIO_ACCESO',
+        fecha_inicio_acceso: inicioStr,
+        fecha_inicio_texto: fechaFormat,
+        mensaje: `El inicio de sesión se encuentra cerrado para tu rol. Por favor, espera a que los administradores habiliten el periodo de acceso (Apertura programada: ${fechaFormat}).`
+      };
+    }
+
+    if (ahora > fechaFin) {
+      return {
+        valido: false,
+        estado: 'DESPUES_DE_FIN_ACCESO',
+        fecha_fin_acceso: finStr,
+        mensaje: `El inicio de sesión se encuentra cerrado para tu rol. Por favor, espera a que los administradores habiliten el periodo de acceso.`
+      };
+    }
+
+    return { valido: true };
+  }
+
   async obtenerConvocatoriaActiva() {
     const convocatoria = await catalogosRepository.getConvocatoriaActiva();
     if (!convocatoria) {

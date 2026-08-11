@@ -25,7 +25,18 @@ class SuperadminController {
 
   async crearOEditarConvocatoria(req, res, next) {
     try {
-      const { id_convocatoria, anio, nombre, lema, fecha_inicio, fecha_fin, status } = req.body;
+      const {
+        id_convocatoria,
+        anio,
+        nombre,
+        lema,
+        fecha_inicio,
+        fecha_fin,
+        fecha_inicio_acceso,
+        fecha_fin_acceso,
+        roles_restringidos_acceso,
+        status
+      } = req.body;
 
       if (!anio || !nombre || !fecha_inicio || !fecha_fin) {
         return res.status(400).json({ error: 'Todos los campos obligatorios de la convocatoria deben completarse.' });
@@ -36,6 +47,21 @@ class SuperadminController {
       }
 
       const lemaTexto = lema && lema.trim() ? lema.trim() : 'Conversando con los clásicos';
+      const rolesTexto = Array.isArray(roles_restringidos_acceso)
+        ? roles_restringidos_acceso.join(',')
+        : (roles_restringidos_acceso || '1');
+
+      const payloadData = {
+        anio,
+        nombre,
+        lema: lemaTexto,
+        fecha_inicio,
+        fecha_fin,
+        fecha_inicio_acceso: fecha_inicio_acceso || null,
+        fecha_fin_acceso: fecha_fin_acceso || null,
+        roles_restringidos_acceso: rolesTexto,
+        status
+      };
 
       let resConvocatoria;
       if (id_convocatoria) {
@@ -43,27 +69,15 @@ class SuperadminController {
         await db('convocatorias')
           .where({ id_convocatoria })
           .update({
-            anio,
-            nombre,
-            lema: lemaTexto,
-            fecha_inicio,
-            fecha_fin,
-            status,
+            ...payloadData,
             fecha_modifica: db.fn.now()
           });
-        resConvocatoria = { id_convocatoria, anio, nombre, lema: lemaTexto, fecha_inicio, fecha_fin, status };
+        resConvocatoria = { id_convocatoria, ...payloadData };
       } else {
         // Crear
         const [insertedId] = await db('convocatorias')
-          .insert({
-            anio,
-            nombre,
-            lema: lemaTexto, 
-            fecha_inicio,
-            fecha_fin,
-            status
-          });
-        resConvocatoria = { id_convocatoria: insertedId, anio, nombre, lema: lemaTexto, fecha_inicio, fecha_fin, status };
+          .insert(payloadData);
+        resConvocatoria = { id_convocatoria: insertedId, ...payloadData };
       }
 
       // Registrar auditoría

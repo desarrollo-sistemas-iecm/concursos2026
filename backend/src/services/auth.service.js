@@ -150,6 +150,15 @@ class AuthService {
       throw new Error('Credenciales incorrectas o usuario inactivo.');
     }
 
+    // Verificar restricción de periodo de acceso por fecha y rol según la convocatoria activa
+    const convocatoriaActiva = await catalogosRepository.getConvocatoriaActiva();
+    if (convocatoriaActiva) {
+      const ventanaAcceso = catalogoService.evaluarVentanaAcceso(convocatoriaActiva, user.id_tipousuario);
+      if (!ventanaAcceso.valido) {
+        throw new Error(ventanaAcceso.mensaje);
+      }
+    }
+
     // Generar un nuevo session_id único (UUID) para invalidar cualquier sesión previa (sesión única)
     const session_id = crypto.randomUUID();
     await usuariosRepository.updateSessionId(user.id_usuario, session_id);
