@@ -282,6 +282,145 @@
               />
             </div>
 
+            <!-- Sección de Periodo de Inicio de Sesión (Login) -->
+            <div class="space-y-3 pt-3 border-t border-slate-200 dark:border-white/5">
+              <span class="block text-xs font-bold text-brand-primary uppercase tracking-wider">Periodo de Inicio de Sesión (Login)</span>
+              
+              <div class="space-y-1">
+                <label class="block text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase">Fecha Inicio Acceso (Opcional)</label>
+                <input
+                  v-model="formConvocatoria.fecha_inicio_acceso"
+                  type="date"
+                  class="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white rounded-xl py-2 px-3 outline-none text-xs"
+                />
+              </div>
+
+              <div class="space-y-1">
+                <label class="block text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase">Fecha Fin Acceso (Opcional)</label>
+                <input
+                  v-model="formConvocatoria.fecha_fin_acceso"
+                  type="date"
+                  class="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white rounded-xl py-2 px-3 outline-none text-xs"
+                />
+              </div>
+
+              <div class="space-y-2">
+                <div class="flex items-center justify-between">
+                  <label class="block text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider">
+                    Roles Sujetos a Restricción de Acceso
+                  </label>
+                  <span class="text-[10px] text-slate-500 font-medium">Sujetos a fecha de login</span>
+                </div>
+
+                <div class="space-y-1.5">
+                  <!-- Card 1: Participantes (Rol 1) -->
+                  <label
+                    class="relative flex items-center justify-between p-2.5 rounded-xl border transition-all duration-200 cursor-pointer select-none"
+                    :class="[
+                      formConvocatoria.roles_restringidos_acceso.includes('1') || formConvocatoria.roles_restringidos_acceso.includes(1)
+                        ? 'bg-amber-500/10 border-amber-500/40 text-amber-300 dark:text-amber-300 shadow-sm shadow-amber-500/10'
+                        : 'bg-slate-100 dark:bg-slate-950 border-slate-200 dark:border-white/10 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-900'
+                    ]"
+                  >
+                    <input type="checkbox" value="1" v-model="formConvocatoria.roles_restringidos_acceso" class="sr-only" />
+                    <div class="flex items-center gap-2.5 min-w-0 pr-2">
+                      <div 
+                        class="w-7 h-7 rounded-lg shrink-0 flex items-center justify-center transition-colors"
+                        :class="[
+                          formConvocatoria.roles_restringidos_acceso.includes('1') || formConvocatoria.roles_restringidos_acceso.includes(1)
+                            ? 'bg-amber-500/20 text-amber-500 dark:text-amber-400'
+                            : 'bg-slate-200 dark:bg-white/5 text-slate-400 dark:text-slate-500'
+                        ]"
+                      >
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                      </div>
+                      <div class="min-w-0">
+                        <span class="block text-xs font-bold leading-none truncate">Participantes</span>
+                        <span class="block text-[9px] opacity-75 font-mono mt-0.5">Rol 1 (Estudiantes)</span>
+                      </div>
+                    </div>
+                    <div 
+                      class="w-5 h-5 rounded-md border shrink-0 flex items-center justify-center transition-all"
+                      :class="[
+                        formConvocatoria.roles_restringidos_acceso.includes('1') || formConvocatoria.roles_restringidos_acceso.includes(1)
+                          ? 'bg-amber-500 border-amber-400 text-slate-950 scale-100'
+                          : 'border-slate-300 dark:border-white/20 bg-transparent opacity-40'
+                      ]"
+                    >
+                      <svg v-if="formConvocatoria.roles_restringidos_acceso.includes('1') || formConvocatoria.roles_restringidos_acceso.includes(1)" class="w-3.5 h-3.5 stroke-[3]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  </label>
+
+                  <!-- Card 2: Jueces (Rol 3) -->
+                  <label
+                    class="relative flex items-center justify-between p-2.5 rounded-xl border transition-all duration-200 cursor-pointer select-none"
+                    :class="[
+                      formConvocatoria.roles_restringidos_acceso.includes('3') || formConvocatoria.roles_restringidos_acceso.includes(3)
+                        ? 'bg-amber-500/10 border-amber-500/40 text-amber-300 dark:text-amber-300 shadow-sm shadow-amber-500/10'
+                        : 'bg-slate-100 dark:bg-slate-950 border-slate-200 dark:border-white/10 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-900'
+                    ]"
+                  >
+                    <input type="checkbox" value="3" v-model="formConvocatoria.roles_restringidos_acceso" class="sr-only" />
+                    <div class="flex items-center gap-2.5 min-w-0 pr-2">
+                      <div 
+                        class="w-7 h-7 rounded-lg shrink-0 flex items-center justify-center transition-colors"
+                        :class="[
+                          formConvocatoria.roles_restringidos_acceso.includes('3') || formConvocatoria.roles_restringidos_acceso.includes(3)
+                            ? 'bg-amber-500/20 text-amber-500 dark:text-amber-400'
+                            : 'bg-slate-200 dark:bg-white/5 text-slate-400 dark:text-slate-500'
+                        ]"
+                      >
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5 5 0 006 0l-3-9e0m0 0l6 2m6-2l3 1m0 0l-3 9a5 5 0 006 0l-3-9e0m0 0l6 2M9 1a2 2 0 012 2v2H7V3a2 2 0 012-2zm0 18a2 2 0 012 2v2H7v-2a2 2 0 012-2z" />
+                        </svg>
+                      </div>
+                      <div class="min-w-0">
+                        <span class="block text-xs font-bold leading-none truncate">Jueces Evaluadores</span>
+                        <span class="block text-[9px] opacity-75 font-mono mt-0.5">Rol 3 (Calificadores)</span>
+                      </div>
+                    </div>
+                    <div 
+                      class="w-5 h-5 rounded-md border shrink-0 flex items-center justify-center transition-all"
+                      :class="[
+                        formConvocatoria.roles_restringidos_acceso.includes('3') || formConvocatoria.roles_restringidos_acceso.includes(3)
+                          ? 'bg-amber-500 border-amber-400 text-slate-950 scale-100'
+                          : 'border-slate-300 dark:border-white/20 bg-transparent opacity-40'
+                      ]"
+                    >
+                      <svg v-if="formConvocatoria.roles_restringidos_acceso.includes('3') || formConvocatoria.roles_restringidos_acceso.includes(3)" class="w-3.5 h-3.5 stroke-[3]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  </label>
+
+                  <!-- Card 3: Admins (Protegido / Exento) -->
+                  <div
+                    class="relative flex items-center justify-between p-2.5 rounded-xl border border-emerald-500/30 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 cursor-not-allowed select-none"
+                    title="Administradores siempre tienen acceso garantizado a la plataforma por razones operativas"
+                  >
+                    <div class="flex items-center gap-2.5 min-w-0 pr-2">
+                      <div class="w-7 h-7 rounded-lg shrink-0 bg-emerald-500/20 text-emerald-500 dark:text-emerald-400 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                      </div>
+                      <div class="min-w-0">
+                        <span class="block text-xs font-bold leading-none truncate">Administradores</span>
+                        <span class="block text-[9px] text-emerald-600/70 dark:text-emerald-400/70 font-mono mt-0.5">Acceso siempre libre</span>
+                      </div>
+                    </div>
+                    <span class="text-[9px] font-extrabold uppercase tracking-wider bg-emerald-500/20 text-emerald-600 dark:text-emerald-300 px-2 py-0.5 rounded-md border border-emerald-500/30 shrink-0">
+                      Exento
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- Toggle de Convocatoria Activa -->
             <div class="space-y-2 pt-2 border-t border-slate-200 dark:border-white/5">
               <div class="flex items-center justify-between">
@@ -435,6 +574,9 @@ const formConvocatoria = reactive({
   lema: 'Conversando con los clásicos',
   fecha_inicio: '',
   fecha_fin: '',
+  fecha_inicio_acceso: '',
+  fecha_fin_acceso: '',
+  roles_restringidos_acceso: ['1'],
   status: 1
 });
 
@@ -494,8 +636,14 @@ const editarConvocatoria = (conv) => {
   formConvocatoria.anio = conv.anio;
   formConvocatoria.nombre = conv.nombre;
   formConvocatoria.lema = conv.lema || 'Conversando con los clásicos';
-  formConvocatoria.fecha_inicio = conv.fecha_inicio.substring(0, 10);
-  formConvocatoria.fecha_fin = conv.fecha_fin.substring(0, 10);
+  formConvocatoria.fecha_inicio = conv.fecha_inicio ? conv.fecha_inicio.substring(0, 10) : '';
+  formConvocatoria.fecha_fin = conv.fecha_fin ? conv.fecha_fin.substring(0, 10) : '';
+  formConvocatoria.fecha_inicio_acceso = conv.fecha_inicio_acceso ? conv.fecha_inicio_acceso.substring(0, 10) : '';
+  formConvocatoria.fecha_fin_acceso = conv.fecha_fin_acceso ? conv.fecha_fin_acceso.substring(0, 10) : '';
+  const rolesArr = conv.roles_restringidos_acceso
+    ? String(conv.roles_restringidos_acceso).split(',').map(r => String(r.trim()))
+    : ['1'];
+  formConvocatoria.roles_restringidos_acceso = rolesArr;
   formConvocatoria.status = conv.status;
 };
 
@@ -506,6 +654,9 @@ const resetFormConvocatoria = () => {
   formConvocatoria.lema = 'Conversando con los clásicos';
   formConvocatoria.fecha_inicio = '';
   formConvocatoria.fecha_fin = '';
+  formConvocatoria.fecha_inicio_acceso = '';
+  formConvocatoria.fecha_fin_acceso = '';
+  formConvocatoria.roles_restringidos_acceso = ['1'];
   formConvocatoria.status = 1;
 };
 

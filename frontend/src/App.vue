@@ -25,12 +25,17 @@ const handleAuthInvalidated = (event) => {
   authStore.clearSession();
   sesionesStore.desconectarSocket();
   
+  const mensajeMsg = event.detail || '';
+  const esAccesoCerrado = mensajeMsg.toLowerCase().includes('cerrado') || mensajeMsg.toLowerCase().includes('habiliten') || mensajeMsg.toLowerCase().includes('periodo de acceso');
+
   Swal.fire({
-    icon: 'warning',
-    title: 'Sesión Invalida',
-    text: event.detail || 'Se ha cerrado tu sesión debido a un nuevo inicio de sesión en otra ubicación.',
+    icon: esAccesoCerrado ? 'info' : 'warning',
+    title: esAccesoCerrado ? 'Inicio de Sesión Cerrado' : 'Sesión Inválida',
+    text: mensajeMsg || 'Se ha cerrado tu sesión debido a un nuevo inicio de sesión en otra ubicación.',
     confirmButtonText: 'Entendido',
     confirmButtonColor: '#10b981',
+    background: '#0f172a',
+    color: '#fff',
     allowOutsideClick: false,
     allowEscapeKey: false
   }).then(() => {
